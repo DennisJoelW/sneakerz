@@ -1,0 +1,46 @@
+
+.shop{
+    margin-top: 3rem;
+}
+
+.shop-item{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.shop-item img{
+    width: 110px;
+    height: auto;
+    cursor: pointer;
+}
+
+.shop-item-name{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding-top: 10px;
+    padding-left: 15px;
+    cursor: pointer;
+}
+
+.shop-item-name:hover .p1{
+    color: #0f7a68;
+}
+
+.shop-item-name p{
+    margin: 0;
+}
+
+.shop-item-name .p1{
+    margin-top: 15px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.shop-item a{
+    text-decoration: none;
+    color: black;
+}

@@ -1,0 +1,22 @@
+
+.category{
+    margin-top: 3rem;
+}
+
+.category-item{
+    background-color: hsl(0, 0%, 90%);
+    padding: 50px;
+    height: 140px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.category-item h2{
+    color: #0f7a68;
+    font-weight: 500;
+    font-size: 45px;
+}

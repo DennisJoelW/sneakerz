@@ -1,0 +1,55 @@
+*{
+    font-family: 'DM Sans', sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+.navbar{
+    margin-top: 5px;
+}
+.ul-sneakers{
+    list-style-type: none;
+    list-style: none;
+}
+
+.navbar-search input{
+    width: 310px;
+    height: 40px;
+    padding: 12px;
+}
+
+.navbar-title{
+    color: red;
+    font-weight: bold;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+.sneakers-button{
+    margin-top: 10px;
+    font-weight: 500;
+    margin-right: 10px;
+}
+
+.navbar-rightside{
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar-rightside p{
+    margin-top: 1rem;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.navbar-rightside p:hover{
+    color: red;
+}
+
+a{
+    text-decoration: none;
+    color: red;
+    margin-top: 5px;
+}
+

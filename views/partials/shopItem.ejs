@@ -1,0 +1,22 @@
+<div class="container-fluid shop">
+
+    <div class="row shop-row">
+
+        <% let i=0 %>
+
+        <% nama.forEach(function(){ %>
+            <div class="col-lg-3 col-sm-12 shop-col">
+                <div class="shop-item">
+                    <a onclick="window.location.href=`/item?&value=<%=nama[i]%>&image=<%=gambar[i]%>&harga=<%= harga[i]%>`"><img src=<%=gambar[i]%> alt="" class="dunks"></a>
+                    <div class="shop-item-name">
+                        <a onclick="window.location.href=`/item?&value=<%=nama[i]%>&image=<%=gambar[i]%>&harga=<%= harga[i]%>`"><p class="p1"><%=nama[i]%></p></a>
+                        <p><%= harga[i]%></p>
+                    </div>
+                </div>
+            </div>
+        <% i+=1; %>
+        <% }); %>
+
+    </div>
+
+</div>
